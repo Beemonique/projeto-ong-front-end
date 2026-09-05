@@ -325,3 +325,59 @@ form button {
 form button:hover {
   background-color: #105c3a;
 }
+/* ===== Ajuste visual final do cadastro ===== */
+
+form {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+form fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+form legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+form input,
+form select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #176b45;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #105c3a;
+}
