@@ -205,3 +205,62 @@ button {
 button:hover {
   background-color: #105c3a;
 }
+/* ===== Ajustes finais do formulário ===== */
+
+form {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+fieldset {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #176b45;
+  padding: 0 8px;
+}
+
+form input,
+form select,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bcbcbc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  background-color: #176b45;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #105c3a;
+}
