@@ -1,0 +1,145 @@
+/* Configurações gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #176b45;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Menu com Flexbox */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #0f4f33;
+  outline: 2px solid white;
+}
+
+/* Conteúdo principal */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* Projetos */
+.projetos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #176b45;
+}
+
+button {
+  background-color: #176b45;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0f4f33;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #176b45;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .projetos-container {
+    flex-direction: column;
+  }
+
+  main {
+    width: 95%;
+  }
+}
